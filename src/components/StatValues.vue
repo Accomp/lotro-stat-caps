@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'StatCaps',
+  name: 'StatValues',
   data() {
     return {
       headers: [

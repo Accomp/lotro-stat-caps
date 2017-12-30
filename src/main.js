@@ -5,14 +5,18 @@ import Vue from 'vue';
 import {
   Vuetify,
   VApp,
-  VNavigationDrawer,
-  VFooter,
-  VList,
   VBtn,
+  VCheckbox,
   VDataTable,
-  VIcon,
+  VFooter,
+  VForm,
   VGrid,
+  VIcon,
+  VList,
+  VNavigationDrawer,
+  VSelect,
   VToolbar,
+  VTooltip,
   transitions
 } from 'vuetify';
 import '../node_modules/vuetify/src/stylus/app.styl'
@@ -23,14 +27,18 @@ import router from './router';
 Vue.use(Vuetify, {
   components: {
     VApp,
-    VNavigationDrawer,
-    VFooter,
-    VList,
     VBtn,
+    VCheckbox,
     VDataTable,
-    VIcon,
+    VFooter,
+    VForm,
     VGrid,
+    VIcon,
+    VList,
+    VNavigationDrawer,
+    VSelect,
     VToolbar,
+    VTooltip,
     transitions
   }
 });
