@@ -40,20 +40,20 @@ export default {
         {
           value: false,
           name: 'Armour',
-          t1: 12000,
-          t2: 17000
+          t1: 70080,
+          t2: 77840
         },
         {
           value: false,
           name: 'Mitigation',
-          t1: 550,
-          t2: 640
+          t1: 222750,
+          t2: 222750
         },
         {
           value: false,
           name: 'Parry',
-          t1: 1100,
-          t2: 1499
+          t1: 64000,
+          t2: 68600
         },
       ]
     };
